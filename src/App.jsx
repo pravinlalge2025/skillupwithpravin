@@ -17,6 +17,7 @@ const App = () => {
       <Navbar />
       <main className="flex-grow p-4">
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/blogs" element={<Blogs />} />
